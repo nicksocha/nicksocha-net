@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body {
+  background-color: #0054a6;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 3.4rem;
+  position: relative;
+}
+
+footer {
+  background: url(https://www.transparenttextures.com/patterns/dark-leather.png);
+  border-top: 1px dashed rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  left: 0;
+  margin-top: 10px;
+  padding: 5px;
+  place-items: center center;
+  position: absolute;
+  right: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Space Mono", monospace;
+  margin: 0 0 5px 0;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+main {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding: 25px;
+}
+
+.box {
+  align-items: center;
+  background: url(https://www.transparenttextures.com/patterns/dark-leather.png);
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  color: white;
+  display: grid;
+  font-weight: 100;
+  grid-gap: 10px;
+  grid-template-columns: 150px 1fr;
+  height: 100%;
+  min-height: 172px;
+  padding: 10px;
+}
+
+.header {
+  align-items: center;
+  background: url(https://www.transparenttextures.com/patterns/dark-leather.png);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  color: white;
+  display: grid;
+  font-weight: 100;
+  grid-gap: 5px;
+  grid-template-columns: 120px 1fr;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+
+.social {
+  color: white;
+  font-weight: 400;
+  padding: 2px 5px;
+}
+
+.thumbnail {
+  margin: auto;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+/* Start of Model */
+iframe {
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  padding-top: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track-piece {
+  -webkit-border-radius: 6px;
+  background-color: transparent;
+}
+/* End of Model */
