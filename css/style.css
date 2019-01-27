@@ -70,6 +70,11 @@ main {
   padding: 10px;
 }
 
+.emoji {
+  font-family: android emoji, apple color emoji, emojione mozilla, emojisymbols,
+    noto color emoji, segoe ui emoji, segoe ui symbol, twemoji mozilla;
+}
+
 .header {
   align-items: center;
   background: url(https://www.transparenttextures.com/patterns/dark-leather.png);
