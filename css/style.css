@@ -100,35 +100,3 @@ main {
   max-height: 150px;
   max-width: 150px;
 }
-
-/* Start of Model */
-iframe {
-  bottom: 0;
-  left: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.modal {
-  background-color: rgba(0, 0, 0, 0.7);
-  display: none;
-  height: 100%;
-  left: 0;
-  overflow: auto;
-  padding-top: 100px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-}
-
-::-webkit-scrollbar-track-piece {
-  -webkit-border-radius: 6px;
-  background-color: transparent;
-}
-/* End of Model */
